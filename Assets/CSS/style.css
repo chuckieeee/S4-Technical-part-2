@@ -1,8 +1,18 @@
 body {
-    background-image: url('https://i.pinimg.com/564x/12/23/99/122399ae99e3350302245e9ebb1c78bd.jpg'); 
-    background-size: cover;
-    background-position: center;
-  }
+  margin: 0;
+  overflow: hidden;
+}
+
+#background-img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
   
   .container {
     max-width: 800px;
